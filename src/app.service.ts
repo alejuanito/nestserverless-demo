@@ -9,6 +9,10 @@ export class AppService {
     return 'Hello World!';
   }
 
+  getHello2(): string {
+    return 'HoLA MUNDO!';
+  }
+
   sprinklrReturn(request : SprinklrRequestDto): SprinklrResponseDto {
     console.log('request', request);
     let response: SprinklrResponseDto = new SprinklrResponseDto();
